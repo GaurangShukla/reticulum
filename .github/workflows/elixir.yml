@@ -16,9 +16,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-        with:
-          username: sfsdsdv
-          password: A@aaaaaa9922
+      
 
       - name: Install dependencies
         run: mix deps.get
